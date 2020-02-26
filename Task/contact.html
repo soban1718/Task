@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conact Us</title>
+</head>
+<body bgcolor="skyblue">
+    <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="nasab.html">Aap ka Nasab</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="speeches.html">Audio Video Speeches</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <hr />
+    <form>
+        <p> Username <input type="text" name="username" placeholder="username" size="15" maxlength="30" /></p>
+        <p> Password <input type="password" name="password" placeholder="passowrd" size="15" maxlength="30" /></p>
+        <p> Description <textarea  name="username" cols="15" rows="4" >type</textarea></p>
+        <p> Phonenumber  <input type="number" name="number" placeholder="1234567890" size="15" maxlength="30" /></p>
+        <p> Date <input type="date" name="depart"  size="15" maxlength="30" /></p>
+        <p>
+            select your gender
+            <input type="radio" name="gendre" value="male" />male
+            <input type="radio" name="gendre" value="female" />female
+        </p>
+        <p>
+            select the book which you want
+            <input type="checkbox" name="book" value="jinnat ka badhhshah" />jinnat ka badhshah
+            <input type="checkbox" name="book" value="munne ki lash" />munne ki lash
+        </p>
+        <p>select in which cities u have been travelled</p>
+           <select name="cities">
+             <option value="sukkur">sukkur</option>
+             <option value="karachi">karachi</option>
+             <option value="lar">larkana</option>
+             <option value="kandh kot">kandh kot</option>
+             <option value="lahore">lahore</option>
+           </select>
+               <p>select your cities</p>
+               <select name="cities" size="3"
+                multiple="multiple">
+                <option value="sukkur" selected="selected">
+                sukkur</option>
+                <option value="karachi">karachi</option>
+                <option value="punjab"selected="selected">punjab</option>
+                <option value="hyd">hydrabad</option>
+                </select>
+                <p>upload your image</p>
+                <input type="file" name="images" />
+                <p>subscribe our email</p>
+                <input type="submit" name="submit" value="submit" />
+       </form>
+</body>
+</html>
